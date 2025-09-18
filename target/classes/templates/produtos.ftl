@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja de Sobremesas</title>
+    <title>Inicial</title>
 </head>
-<body>
-    <h1>Bem vindo a Loja de Sobremesas</h1>
-    <p>Aqui você encontra as melhoras sobremesas</p>
+<body>  
+    <h1>Visualizar produtos</h1>
 
     <table>
         <tr>
-            <th>Nome da Sobremesa</th>
+            <th>Nome</th>
             <th>Preço</th>
-            <th>Categoria</th>
+        </tr>   
+        <tr>
+            <td>${produto.nome}</td>
+            <td>${produto.preco}</td>
         </tr>
     </table>
+
+    <a href="/">Pagina inicial</a>
 </body>
 </html>

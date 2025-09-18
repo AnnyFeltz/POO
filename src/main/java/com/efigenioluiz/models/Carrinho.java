@@ -25,7 +25,4 @@ public class Carrinho {
         this.criadoEm = criadoEm;
     }
 
-    public ArrayList<Produto> getProduto() {
-        return this.produtos;
-    }
 }

@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicial</title>
 </head>
-<body>
+<body>  
+    <h1>Visualizar produtos</h1>
+
     <table>
         <tr>
             <th>Nome</th>
-            <th>Estoque</th>
             <th>Preço</th>
-        </tr>
+        </tr>   
         <tr>
-            <td>Pudim</td>
-            <td>35</td>
-            <td>5,90</td>
+            <td>${produto.nome}</td>
+            <td>${produto.preco}</td>
         </tr>
     </table>
 
+    <a href="/">Pagina inicial</a>
 </body>
 </html>
