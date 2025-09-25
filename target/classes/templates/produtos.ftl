@@ -13,10 +13,12 @@
             <th>Nome</th>
             <th>Preço</th>
         </tr>   
-        <tr>
-            <td>${produto.nome}</td>
-            <td>${produto.preco}</td>
-        </tr>
+        <#list produtos as produto>
+            <tr>
+                <td><strong>${produto.nome}</strong></td>
+                <td>${produto.preco}</td>
+            </tr>
+        </#list>
     </table>
 
     <a href="/">Pagina inicial</a>
