@@ -23,10 +23,8 @@ public class ProdutoController {
         Double precoProduto = Double.parseDouble(ctx.formParam("preco"));
 
         Produto produto = new Produto(nomeProduto, precoProduto);
-        produtoRepository.save(produto); //usando o repositorio para salvar
+        produtoRepository.save(produto); //usnado o repositorio para salvar
 
-        // Após salvar, redireciona o usuário para a página de listagem de produtos
-        // Isso evita o problema da variável "produtos" não existir aqui.
         ctx.redirect("/produtos");
     }
 
