@@ -1,13 +1,11 @@
 package com.efigenioluiz.models;
 
-import java.util.ArrayList;
-
 public class Cliente extends Usuario {
 
     private Carrinho carrinho;
 
-    public Cliente(String email, String nome) {
-        super(email, nome);
+    public Cliente(int id,String email, String nome) {
+        super(id, email, nome);
     }
 
     public void setCarrinho(Carrinho carrinho){

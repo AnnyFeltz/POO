@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicial</title>
+    <title>Loja</title>
 </head>
-<body>  
-    HAAAAAAAAAAAAAAAAHHAHAHAHAHHAAHHAHA
-    ${nome}
+<body>
+    <h1>Bem-vindo! On ${nome}</h1>
+    <p>Aqui você encontra o melhor</p>
 
-    <a href="/cadastro">Cadastraaaar</a>
-    <a href="/produtos">Produtos</a>
+    <a href="/cadastro">Cadastrar Produto</a>
 
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Categoria</th>
+        </tr>
+        <tr>
+            <td>Boneca</td>
+            <td>R$ 50,00</td>
+            <td>Bonecas</td>
+        </tr>
+    </table>
 </body>
 </html>
